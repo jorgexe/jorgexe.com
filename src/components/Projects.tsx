@@ -9,6 +9,12 @@ type Project = {
 
 const projects: Project[] = [
   {
+    title: "LegisConnect - Hackathon 3rd Place Winner",
+    description: "A social network prototype enabling citizens to propose and debate legislative topics with lawmakers. Won 3rd place among 375+ students at the 'Elegis Tech3' Hackathon (UABC). Built with Next.js and deployed at legisconnect.org.",
+    image: "/projects/legisconnect.png",
+    githubUrl: "https://github.com/jorgexe/LegisConnect",
+  },
+  {
     title: "Real-Time Computer Vision Classification App",
     description: "A browser-based application that uses machine learning to classify objects in real-time via webcam. Pre-configured for Rock-Paper-Scissors recognition but can be trained to recognize any object.",
     image: "/projects/classifier.png",
@@ -16,13 +22,13 @@ const projects: Project[] = [
   },
   {
     title: "Sorting Algorithm Visualizer",
-    description: "Sorting Algorithm Visualizer that allows users to visualize how different sorting algorithms work in real-time. It provides an interactive GUI where users can select a sorting algorithm, specify the number of elements, and watch the algorithm sort the data step-by-step.",
+    description: "Sorting Algorithm Visualizer that allows users to visualize how different sorting algorithms work in real-time. It provides an interactive GUI where users can select a sorting algorithm, specify the number of elements, and watch the algorithm sort the data step-by-step.",
     image: "/projects/Sort.png",
     githubUrl: "https://github.com/jorgexe/Sort_Visualizer",
   },
   {
     title: "Prim's Algorithm Visualizer",
-    description: "This project demonstrates Prim's algorithm for finding the Minimum Spanning Tree (MST) of a weighted undirected graph. The implementation includes step-by-step visualization using networkx and matplotlib, highlighting edges as they are added to the MST.",
+    description: "This project demonstrates Prim's algorithm for finding the Minimum Spanning Tree (MST) of a weighted undirected graph. The implementation includes step-by-step visualization using networkx and matplotlib, highlighting edges as they are added to the MST.",
     image: "/projects/Prim.png",
     githubUrl: "https://github.com/jorgexe/Prim_Algorithm",
   },
@@ -35,7 +41,7 @@ const projects: Project[] = [
   },
   {
     title: "Sliding Squares: Teamwork Puzzle Game",
-    description: "An exciting 2-player game that challenges you and a friend to slide your way to victory while avoiding obstacles. With simple controls and engaging gameplay, it’s not only fun but also an educational tool that promotes teamwork and strategic thinking.",
+    description: "An exciting 2-player game that challenges you and a friend to slide your way to victory while avoiding obstacles. With simple controls and engaging gameplay, it's not only fun but also an educational tool that promotes teamwork and strategic thinking.",
     image: "/projects/Squares.png",
     githubUrl: "https://github.com/jorgexe/Sliding_Squares",
   },
