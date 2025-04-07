@@ -3,7 +3,7 @@ import { Mail, Github, Linkedin } from "lucide-react"
 
 export default function AboutMe() {
   return (
-    <section id="aboutme" className="py-12 md:py-20">
+    <section id="about-me" className="py-12 md:py-20">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center justify-between">
           <div className="md:w-1/2 mb-8 md:mb-0">

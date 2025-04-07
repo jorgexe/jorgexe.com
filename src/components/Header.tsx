@@ -10,7 +10,7 @@ export default function Header() {
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ["about", "skills", "experience", "education",  "projects", "contact"]
+      const sections = ["about-me", "skills", "experience", "education", "client-websites", "projects", "contact"]
       const scrollPosition = window.scrollY
 
       for (const section of sections) {
@@ -45,12 +45,12 @@ export default function Header() {
         </div>
         <nav className="hidden md:flex items-center">
           <ul className="flex space-x-4 mr-4">
-            {["About Me", "Skills", "Experience",  "Education", "Projects", "Contact"].map((item) => (
+            {["About Me", "Skills", "Experience", "Education", "Client Websites", "Projects", "Contact"].map((item) => (
               <li key={item}>
                 <button
-                  onClick={() => scrollToSection(item.toLowerCase().replace(" ", ""))}
+                  onClick={() => scrollToSection(item.toLowerCase().replace(" ", "-"))}
                   className={`px-3 py-2 rounded-md text-sm font-medium ${
-                    activeSection === item.toLowerCase().replace(" ", "")
+                    activeSection === item.toLowerCase().replace(" ", "-")
                       ? "bg-gray-900 text-white"
                       : "text-gray-800 hover:bg-gray-200"
                   }`}
@@ -84,12 +84,12 @@ export default function Header() {
       {isMenuOpen && (
         <nav className="md:hidden">
           <ul className="flex flex-col items-center py-4">
-            {["About Me", "Skills", "Experience",  "Education", "Projects", "Contact"].map((item) => (
+            {["About Me", "Skills", "Experience", "Education", "Client Websites", "Projects", "Contact"].map((item) => (
               <li key={item} className="w-full">
                 <button
-                  onClick={() => scrollToSection(item.toLowerCase().replace(" ", ""))}
+                  onClick={() => scrollToSection(item.toLowerCase().replace(" ", "-"))}
                   className={`w-full px-3 py-2 text-sm font-medium ${
-                    activeSection === item.toLowerCase().replace(" ", "")
+                    activeSection === item.toLowerCase().replace(" ", "-")
                       ? "bg-gray-900 text-white"
                       : "text-gray-800 hover:bg-gray-200"
                   }`}
